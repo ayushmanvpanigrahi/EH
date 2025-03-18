@@ -1,0 +1,25 @@
+OPEN WIRESHARK 
+START CAPTURING PACKETS
+LOGIN ANY WEBSITES
+COMMAND : http.request.method =="POST"
+right click on any login.xml package ->follow and TCP Stream.
+	
+
+
+b)
+b ka a:-(cmd)
+ping 172.18.0.131 -t -l 6550 (baju wale ka ip address)
+
+b ka b:-
+nemsy wala hai usmai karna kya hai ki ,tujhe jana hai 
+chrome ke settings mai or protection ko off karna hai
+phir uske baad windows pc ka virus protection ko bhi off karna hai
+
+phir uske baad nemesy.13 ko download karke unzip karna hai
+of un karna hai nemesy.exe ko
+
+ek interface aayega usmai vitim ka ip address dalna hai
+or send karna hai
+
+
+

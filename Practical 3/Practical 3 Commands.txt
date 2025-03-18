@@ -1,0 +1,63 @@
+A:cmd
+tracert www.prestashop.com
+ping 104.16.210.130
+
+ipconfig
+netstat
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+for Viva:-
+1. tracert (Trace Route)
+Usage: Tracks the path packets take to reach a destination.
+
+Command:
+tracert example.com
+
+How it helps in hacking:
+Identifies network paths and possible vulnerable points.
+Helps in footprinting by mapping an organization's network.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+2. ping
+Usage: Checks connectivity between your system and a target.
+
+Command:
+ping example.com
+
+How it helps in hacking:
+Determines if a host is online.
+Used in ICMP flood attacks (Denial of Service - DoS).
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+3. ipconfig
+Usage: Displays the system’s network configuration.
+
+Command:
+ipconfig /all
+
+How it helps in hacking:
+Reveals IP addresses, DNS, and gateway information.
+Useful in network reconnaissance.
+-----------------------------------------------------------------------------------------------------------------------------------------
+4. netstat (Network Statistics)
+Usage: Shows active network connections, ports, and routing tables.
+
+Command:
+netstat -an
+
+How it helps in hacking:
+Identifies open ports and running services.
+Helps detect backdoors and unauthorized connections.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+B:
+arp -a -d
+ipconfig
+ping 192.168.231.205
+arp -a
+
+wireshark commands:
+eth.addr==50-65-f3-51-58-f7
+arpspoof.exe 192.168.231.205

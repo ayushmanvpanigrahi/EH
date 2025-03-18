@@ -1,0 +1,18 @@
+Step 1 :- Extract the DVWA zip file.
+Step 2:- Copy the folder and paste it in Drive C:> wamp >www
+Step 3:- Rename the file as DVWA
+Step 4:- Go in the config file and rename the file as config.inc.php
+Step 5:- Open the config file in Visual studio code and the save as the file in php
+extension and do the following changes.
+ Give the db_user as “root” and db_password as “Save the file”. 
+
+Step 6:- Start the WAMP server and then Open the chrome and search
+localhost/DVWA.
+
+
+Step 7:- Click on create/reset database then login.
+
+Step 8:- Click on DVWA Security and set the security to low and then Submit.
+
+user id: 1
+user id: ‘OR’1’=’1

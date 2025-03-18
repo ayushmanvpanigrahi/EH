@@ -1,0 +1,18 @@
+Aim :- Simulate persistent Cross-site Scripting Attack.
+Step 1 :- Extract the DVWA zip file.
+Step 2:- Copy the folder and paste it in Drive C:> wamp >www
+Step 3:- Rename the file as DVWA
+Step 4:- Go in the config file and rename the file as config.inc.php
+Step 5:- Open the config file in Visual studio code and save as the file in php extension
+and do the following changes.
+Give the db_user as “root” and db_password as “Save the file”. 
+Step 6:- Start the WAMP server and then Open the chrome and search
+localhost/DVWA.
+Step 7:- Click on create/reset database then login.
+Step 8:- Click on DVWA Security and set the security to low and then Submit.
+Step 9:- Click on XSS(stored) write the script and click on sign guestbook.The script
+will be executed whenever the page is reloaded.
+
+
+name : test1
+message: <script>alert("this is message")</script>

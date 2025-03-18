@@ -1,0 +1,23 @@
+open zenmap
+
+target : scanme.nmap.org
+profile: intense scan
+command: nmap -T4 -A -v scanme.nmap.org
+
+target : scanme.nmap.org
+command: nmap -sS -p 22 scanme.nmap.org
+
+target : scanme.nmap.org
+command : nmap -p 22,113,139 scanme.nmap.org
+
+
+target: para
+command :  nmap -sF -T4 para
+
+
+target : scanme.nmap.org	
+command: nmap -sN -p22 scanme.nmap.org
+
+
+target : scanme.nmap.org
+command : “nmap -sX -T4 scanme.nmap.org
